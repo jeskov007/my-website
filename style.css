@@ -1,0 +1,92 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-size: 5rem; /* Increased heading size */
+}
+
+#projectContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.project {
+    background-color: #fff;
+    border-radius: 12px; /* Slightly more rounded corners */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* More pronounced shadow */
+    padding: 25px; /* Increased padding */
+    transition: all 0.3s ease-in-out; /* Combined transition for multiple properties */
+    overflow: hidden; /* Ensures content doesn't overflow rounded corners */
+}
+
+.project:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* Shadow increase on hover */
+}
+
+.project h2 {
+    color: #2c3e50;
+    margin-bottom: 12px;
+    font-size: 1.7rem; /* Increased heading size */
+}
+
+.project p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.project a {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px; /* Increased padding */
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out; /* Added transform to transition */
+    font-weight: 500; /* Slightly bolder font */
+}
+
+.project a:hover {
+    background-color: #2980b9;
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.project button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 10px 20px; /* Increased padding */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-weight: 500; /* Slightly bolder font */
+}
+
+.project button:hover {
+    background-color: #c0392b;
+}
+
+footer {
+    text-align: center; /* Center the text */
+    margin-top: 40px; /* Space above the footer */
+    padding: 20px; /* Padding inside the footer */
+    background-color: #2c3e50; /* Dark background for contrast */
+    color: white; /* White text color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+footer p {
+    margin: 5px 0; /* Space between paragraphs */
+    font-size: 0.9rem; /* Slightly smaller font size */
+}
