@@ -26,7 +26,7 @@ let projects = [
         link: "https://editor.p5js.org/Jes007kov/sketches/QPc0DfgC1"
     },
     {
-        name: "Circle Calculatorr",
+        name: "Circle Calculator",
         description: "Been stuck in math not knowing how to calculate the radius or diameter, use this tool. click the circle to increase in size press r to decrease size.",
         link: "https://editor.p5js.org/Jes007kov/sketches/1xFFmvuaD"
     },
@@ -61,5 +61,6 @@ function deleteProject(index) {
 document.addEventListener("DOMContentLoaded", () => {
     displayProjects();
 });
+
 
 
