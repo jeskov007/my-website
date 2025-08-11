@@ -21,14 +21,14 @@ let projects = [
         link: "https://editor.p5js.org/Jes007kov/sketches/nayTVbVxG"
     },
     {
-        name: "Bouncing Link",
-        description: "This is a satisfying app. You watch link bounce around hitting walls and change tint. How to use up and down arrows.",
-        link: "https://editor.p5js.org/Jes007kov/sketches/e73kBIKQg"
+        name: "Vector Calculator",
+        description: "Have you needed help with physics problems related to vectors here is your calculator. How to use press w to shoot, a,s,d to change the horizontal speed, z,x,c to change verticle speed.",
+        link: "https://editor.p5js.org/Jes007kov/sketches/QPc0DfgC1"
     },
     {
-        name: "Random Number",
-        description: "This app randomizes a number between 1-1000. Just click the screen and the number will change.",
-        link: "https://editor.p5js.org/Jes007kov/sketches/i8R5Oj-hv"
+        name: "Circle Calculatorr",
+        description: "Been stuck in math not knowing how to calculate the radius or diameter, use this tool. click the circle to increase in size press r to decrease size.",
+        link: "https://editor.p5js.org/Jes007kov/sketches/1xFFmvuaD"
     },
 
     // Add more projects here (copy and paste above and edit)
@@ -61,4 +61,5 @@ function deleteProject(index) {
 document.addEventListener("DOMContentLoaded", () => {
     displayProjects();
 });
+
 
