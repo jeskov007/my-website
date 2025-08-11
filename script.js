@@ -16,9 +16,9 @@ let projects = [
         link: "https://editor.p5js.org/Jes007kov/sketches/i8R5Oj-hv"
     },
    {
-        name: "DRAWER",
-        description: "Drawer is one of my first projects I made, it is a drawing app. How to use click to erase, and release to draw.(mouse needed)",
-        link: "https://editor.p5js.org/Jes007kov/sketches/LxPMhbcVx"
+        name: "Magic 8 Ball",
+        description: "This App bring to digital life the ball that you shake and it gives you an answer to a question you ask.",
+        link: "https://editor.p5js.org/Jes007kov/sketches/nayTVbVxG"
     },
     {
         name: "Bouncing Link",
@@ -61,3 +61,4 @@ function deleteProject(index) {
 document.addEventListener("DOMContentLoaded", () => {
     displayProjects();
 });
+
